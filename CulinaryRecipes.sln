@@ -5,16 +5,11 @@ VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3AB6E38C-12C4-4359-9436-BA65980CD724}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CulinaryRecipes.Infrastucture", "CulinaryRecipes.Infrastucture\CulinaryRecipes.Infrastucture.csproj", "{716DAF73-54F4-40E2-8201-5E90744E61CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CulinaryRecipes.Infrastucture", "CulinaryRecipes.Infrastucture\CulinaryRecipes.Infrastucture.csproj", "{716DAF73-54F4-40E2-8201-5E90744E61CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CulinaryRecipes.Aplication", "CulinaryRecipes.Aplication\CulinaryRecipes.Aplication.csproj", "{8AF76951-2CB3-444A-B806-5B5D0E5C2014}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CulinaryRecipes.Aplication", "CulinaryRecipes.Aplication\CulinaryRecipes.Aplication.csproj", "{8AF76951-2CB3-444A-B806-5B5D0E5C2014}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CulinaryRecipes.Shared", "CulinaryRecipes.Shared\CulinaryRecipes.Shared.csproj", "{9DFB24E6-41A1-4C27-8444-09EC63589224}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "data", "data", "{C1C89459-04FF-465F-BE20-19BEE9CCE612}"
-	ProjectSection(SolutionItems) = preProject
-		sample-data.json = sample-data.json
-	EndProjectSection
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CulinaryRecipes.Shared", "CulinaryRecipes.Shared\CulinaryRecipes.Shared.csproj", "{9DFB24E6-41A1-4C27-8444-09EC63589224}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docker", "docker", "{6163CA27-658F-486D-B105-293ACE9F591C}"
 	ProjectSection(SolutionItems) = preProject
@@ -23,7 +18,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docker", "docker", "{6163CA
 		docker-compose.yml = docker-compose.yml
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CulinaryRecipes.Api", "CulinaryRecipes.Api\CulinaryRecipes.Api.csproj", "{A7A14F25-C884-4306-9A68-C6B012B02F42}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CulinaryRecipes.Api", "CulinaryRecipes.Api\CulinaryRecipes.Api.csproj", "{A7A14F25-C884-4306-9A68-C6B012B02F42}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

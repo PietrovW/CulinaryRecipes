@@ -4,8 +4,6 @@ services:
   elasticsearch:
     ports:
       - 9200:9200
-    volumes:
-      - elasticsearch-data:/usr/share/elasticsearch/datafile
     environment:
       - xpack.monitoring.enabled=true
       - xpack.watcher.enabled=false
@@ -27,6 +25,3 @@ services:
 networks:
   elastcinetwork:
     driver: bridge
-
-volumes:
-  elasticsearch-data:

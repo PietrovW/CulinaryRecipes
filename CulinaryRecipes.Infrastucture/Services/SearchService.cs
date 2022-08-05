@@ -50,5 +50,10 @@ namespace CulinaryRecipes.Infrastucture.Services
 
             return response.Documents;
         }
+
+        public async Task DeleteAsync(Recipe recipe)
+        {
+            await _elasticClient.DeleteAsync<Recipe>(recipe);
+        }
     }
 }

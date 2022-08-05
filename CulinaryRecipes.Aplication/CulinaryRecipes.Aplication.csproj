@@ -12,9 +12,7 @@
 
   <ItemGroup>
     <Folder Include="AutoMapper\" />
-    <Folder Include="CommandHandler\" />
     <Folder Include="CommandValidator\" />
-    <Folder Include="Common\" />
   </ItemGroup>
 
   <ItemGroup>
